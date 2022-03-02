@@ -1,0 +1,30 @@
+{
+  "name": "c-ui",
+  "version": "1.0.0",
+  "description": "c-ui for web components",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c-ui/c-ui.git"
+  },
+  "keywords": [
+    "c-ui",
+    "unocss",
+    "vueuse"
+  ],
+  "author": "chris-zhu <https://github.com/chris-zhu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/c-ui/c-ui/issues"
+  },
+  "homepage": "https://github.com/c-ui/c-ui#readme",
+  "devDependencies": {
+    "@chris-zhu/eslint-config": "^0.0.5",
+    "eslint": "^8.10.0",
+    "typescript": "^4.6.2"
+  }
+}
