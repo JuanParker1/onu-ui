@@ -5,6 +5,7 @@
 
 <template>
   <p>playground</p>
+  <CButton />
 </template>
 
 <style>
