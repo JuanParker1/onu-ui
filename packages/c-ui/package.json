@@ -2,26 +2,29 @@
   "name": "c-ui",
   "version": "1.0.0",
   "description": "c-ui for web components",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "build": "unbuild"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/c-ui/c-ui.git"
-  },
   "keywords": [
     "c-ui",
     "unocss",
     "vueuse"
   ],
-  "author": "chris-zhu <https://github.com/chris-zhu>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c-ui/c-ui.git"
+  },
+  "author": "chris-zhu <https://github.com/chris-zhu>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "unbuild"
+  },
   "bugs": {
     "url": "https://github.com/c-ui/c-ui/issues"
   },
   "homepage": "https://github.com/c-ui/c-ui#readme",
+  "peerDependencies": {
+    "vue": "^2.6.0 || ^3.2.0"
+  },
   "dependencies": {
     "@unocss/core": "latest",
     "@unocss/preset-attributify": "latest",
@@ -39,8 +42,5 @@
     "unplugin-vue-components": "^0.17.21",
     "vite": "^2.8.6",
     "vue": "^3.2.31"
-  },
-  "peerDependencies": {
-    "vue": "^2.6.0 || ^3.2.0"
   }
 }
