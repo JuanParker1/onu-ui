@@ -14,7 +14,9 @@
   },
   "author": "chris-zhu <https://github.com/chris-zhu>",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "index.d.ts",
   "scripts": {
     "build": "unbuild"
   },
@@ -22,25 +24,7 @@
     "url": "https://github.com/c-ui/c-ui/issues"
   },
   "homepage": "https://github.com/c-ui/c-ui#readme",
-  "peerDependencies": {
-    "vue": "^2.6.0 || ^3.2.0"
-  },
   "dependencies": {
-    "@unocss/core": "latest",
-    "@unocss/preset-attributify": "latest",
-    "@unocss/preset-icons": "latest",
-    "@unocss/preset-mini": "latest",
-    "@unocss/preset-uno": "latest",
-    "@unocss/reset": "latest",
-    "@vueuse/core": "latest",
-    "unocss": "latest",
-    "vue-demi": "latest"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^2.2.4",
-    "unbuild": "^0.7.0",
-    "unplugin-vue-components": "^0.17.21",
-    "vite": "^2.8.6",
-    "vue": "^3.2.31"
+    "@c-ui/components": "workspace:*"
   }
 }

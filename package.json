@@ -8,11 +8,23 @@
         "lint": "eslint \"**/*.{ts,vue,mjs,json}\"",
         "lint:fix": "pnpm run lint -- --fix"
     },
-    "workspaces": [
-        "./packages/*"
-    ],
     "devDependencies": {
         "@chris-zhu/eslint-config": "^0.0.5",
+        "@c-ui/components": "workspace:*",
+        "@unocss/core": "latest",
+        "@unocss/preset-attributify": "latest",
+        "@unocss/preset-icons": "latest",
+        "@unocss/preset-mini": "latest",
+        "@unocss/preset-uno": "latest",
+        "@unocss/reset": "latest",
+        "unocss": "latest",
+        "@vueuse/core": "latest",
+        "@vitejs/plugin-vue": "^2.2.4",
+        "unbuild": "^0.7.0",
+        "unplugin-vue-components": "^0.17.21",
+        "vite": "^2.8.6",
+        "vue-demi": "latest",
+        "vue": "^3.2.31",
         "eslint": "^8.10.0",
         "typescript": "^4.6.2"
     }

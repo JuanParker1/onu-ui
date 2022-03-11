@@ -1,9 +1,9 @@
-<script lang='ts' setup>
+<script lang='ts' setup name="C-Button">
 
 </script>
 
 <template>
-  <div>11</div>
+  <div>c-button</div>
 </template>
 
 <style lang='scss' scoped>

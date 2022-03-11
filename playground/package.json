@@ -1,5 +1,5 @@
 {
-  "name": "playground",
+  "name": "@c-ui/playground",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,8 @@
   },
   "dependencies": {
     "vue": "^3.2.31"
-},
+  },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.2.4",
-    "unplugin-vue-components": "^0.17.21",
-    "vite": "^2.8.6"
+    "unplugin-vue-components": "^0.17.21"
   }
 }
