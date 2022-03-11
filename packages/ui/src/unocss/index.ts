@@ -7,7 +7,7 @@ export const CUIPreset: Preset<Theme> = {
   name: 'c-ui',
   theme: mergeDeep(unoTheme, {
     colors: {
-      context: 'rgba(var(--nui-c-context),%alpha)'
+      context: 'rgba(var(--cui-c-context),%alpha)'
     },
     fontFamily: {
       sans: 'Avenir, Helvetica, Arial, sans-serif'
