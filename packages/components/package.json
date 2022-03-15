@@ -8,8 +8,8 @@
         "vue": "^3.2.0"
     },
     "devDependencies": {
-      "@c-ui/utils": "workspace:*",
-      "@c-ui/unocss": "workspace:*"
+      "@c-ui/unocss": "workspace:*",
+      "@c-ui/utils": "workspace:*"
     },
     "types": "index.d.ts"
 }
