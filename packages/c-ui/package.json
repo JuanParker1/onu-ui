@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/c-ui/c-ui#readme",
   "dependencies": {
-    "@c-ui/components": "workspace:*"
+    "@c-ui/components": "workspace:*",
+    "@c-ui/utils": "workspace:*",
+    "@c-ui/unocss": "workspace:*"
   }
 }

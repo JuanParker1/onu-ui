@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     Vue(),
     Components({
-      dirs: ['../packages/c-ui/src/components']
+      dirs: ['../packages/components']
     })
   ]
 })

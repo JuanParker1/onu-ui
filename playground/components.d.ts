@@ -4,7 +4,7 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    CButton: typeof import('./../packages/c-ui/src/components/CButton/index.vue')['default']
+    Button: typeof import('../packages/components/button/src/index.vue')['default']
   }
 }
 

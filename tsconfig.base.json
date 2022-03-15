@@ -14,6 +14,11 @@
         "baseUrl": ".",
         "rootDir": ".",
         "outDir": "dist",
-        "types": []
+        "types": [],
+        "paths": {
+            "c-ui": [ "./packages/c-ui/src/index.ts" ],
+            "@c-ui/components": [ "./packages/components/index.ts" ],
+            "@c-ui/utils": [ "./packages/utils/index.ts" ]
+        }
     }
 }

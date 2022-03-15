@@ -1,0 +1,8 @@
+{
+    "name": "@c-ui/unocss",
+    "version": "0.0.0",
+    "description": "unocss preset are settled here",
+    "main": "index.ts",
+    "module": "index.ts",
+    "types": "index.d.ts"
+}

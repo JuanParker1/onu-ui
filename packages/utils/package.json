@@ -1,0 +1,11 @@
+{
+    "name": "@c-ui/utils",
+    "version": "0.0.0",
+    "description": "all utils are settled here",
+    "main": "index.ts",
+    "module": "index.ts",
+    "peerDependencies": {
+        "vue": "^3.2.0"
+    },
+    "types": "index.d.ts"
+}
