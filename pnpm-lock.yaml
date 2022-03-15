@@ -70,11 +70,13 @@ importers:
 
   playground:
     specifiers:
+      '@c-ui/unocss': workspace:*
       unplugin-vue-components: ^0.17.21
       vue: ^3.2.31
     dependencies:
       vue: 3.2.31
     devDependencies:
+      '@c-ui/unocss': link:../packages/unocss
       unplugin-vue-components: 0.17.21_vite@2.8.6+vue@3.2.31
 
 packages:
