@@ -5,7 +5,7 @@
 
 <template>
   <p>playground</p>
-  <Button />
+  <ButtonSrc>asd</ButtonSrc>
 </template>
 
 <style>

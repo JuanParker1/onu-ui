@@ -18,7 +18,8 @@
         "paths": {
             "c-ui": [ "./packages/c-ui/src/index.ts" ],
             "@c-ui/components": [ "./packages/components/index.ts" ],
-            "@c-ui/utils": [ "./packages/utils/index.ts" ]
+            "@c-ui/utils": [ "./packages/utils/index.ts" ],
+            "@c-ui/unocss": [ "./packages/unocss/index.ts" ],
         }
     }
 }

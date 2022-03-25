@@ -8,7 +8,14 @@ export default defineConfig({
     Vue(),
     Unocss(),
     Components({
-      dirs: ['../packages/components']
+      dirs: ['../packages/components'],
+      resolvers: [
+        // (name) => {
+        //   return { importName: `C${name}`, path: 'c-ui' }
+        // }
+      ],
+      directoryAsNamespace: true
+      // globalNamespaces: ['src']
     })
   ]
 })

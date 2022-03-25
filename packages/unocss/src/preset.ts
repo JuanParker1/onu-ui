@@ -3,7 +3,7 @@ import { mergeDeep } from 'unocss'
 import type { Preset } from '@unocss/core'
 import type { Theme } from '@unocss/preset-uno'
 
-export function CUIPreset() {
+export function presetCui() {
   return {
     name: 'c-ui',
     theme: mergeDeep(unoTheme, {
@@ -44,9 +44,13 @@ export function CUIPreset() {
       'c-transition': 'transition-all duration-200',
       'c-focus-base': 'ring-2 ring-context/50',
       'c-active-base': 'ring-3 ring-context/10',
-      'c-borderless': '!border-none !shadow-none'
+      'c-borderless': '!border-none !shadow-none',
 
       // button
+      'c-button-base': 'border c-border-base rounded shadow-sm px-1em py-0.25em inline-flex items-center gap-1 op80 !outline-none',
+      'c-button-hover': 'op100 !border-context text-context',
+      'c-button-active': 'c-active-base bg-context/5',
+      'c-button-icon': '-ml-0.2em mr-0.2em text-1.1em'
     }
   } as Preset<Theme>
 }

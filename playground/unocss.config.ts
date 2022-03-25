@@ -1,6 +1,19 @@
-import { defineConfig } from 'unocss'
-import { CUIPreset } from '../packages/unocss/src'
+import { defineConfig, presetAttributify, presetIcons, presetUno, transformerDirectives, transformerVariantGroup } from 'unocss'
+import { presetCui } from '@c-ui/unocss'
 
 export default defineConfig({
-  presets: [CUIPreset()]
+  presets: [
+    presetUno(),
+    presetAttributify(),
+    presetIcons({
+      prefix: '',
+      scale: 1.2,
+      extraProperties: {
+        'display': 'inline-block',
+        'vertical-align': 'middle'
+      }
+    }),
+    presetCui()
+  ],
+  transformers: [transformerVariantGroup(), transformerDirectives()]
 })
