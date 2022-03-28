@@ -4,10 +4,10 @@ importers:
 
   .:
     specifiers:
+      '@chris-zhu/eslint-config': 0.0.5
       '@pui/components': workspace:*
       '@pui/unocss': workspace:*
       '@pui/utils': workspace:*
-      '@chris-zhu/eslint-config': 0.0.5
       '@unocss/core': 0.30.6
       '@unocss/preset-attributify': 0.30.6
       '@unocss/preset-icons': 0.30.6
@@ -24,10 +24,10 @@ importers:
       vite: 2.8.6
       vue: 3.2.31
     devDependencies:
+      '@chris-zhu/eslint-config': 0.0.5_eslint@8.12.0+typescript@4.6.3
       '@pui/components': link:packages/components
       '@pui/unocss': link:packages/unocss
       '@pui/utils': link:packages/utils
-      '@chris-zhu/eslint-config': 0.0.5_eslint@8.12.0+typescript@4.6.3
       '@unocss/core': 0.30.6
       '@unocss/preset-attributify': 0.30.6
       '@unocss/preset-icons': 0.30.6
@@ -44,7 +44,7 @@ importers:
       vite: 2.8.6
       vue: 3.2.31
 
-  packages/pui:
+  packages/c-ui:
     specifiers:
       '@pui/components': workspace:*
       '@pui/unocss': workspace:*
