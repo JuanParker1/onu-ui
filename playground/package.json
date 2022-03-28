@@ -1,5 +1,5 @@
 {
-  "name": "@c-ui/playground",
+  "name": "@pui/playground",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,7 @@
     "vue": "3.2.31"
   },
   "devDependencies": {
-    "@c-ui/unocss": "workspace:*",
+    "@pui/unocss": "workspace:*",
     "unplugin-vue-components": "0.18.5"
   }
 }

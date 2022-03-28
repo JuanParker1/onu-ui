@@ -1,5 +1,5 @@
 {
-    "name": "@c-ui/monorepo",
+    "name": "@pui/monorepo",
     "private": true,
     "version": "1.0.0",
     "license": "MIT",
@@ -9,9 +9,9 @@
         "lint:fix": "pnpm run lint -- --fix"
     },
     "devDependencies": {
-        "@c-ui/components": "workspace:*",
-        "@c-ui/unocss": "workspace:*",
-        "@c-ui/utils": "workspace:*",
+        "@pui/components": "workspace:*",
+        "@pui/unocss": "workspace:*",
+        "@pui/utils": "workspace:*",
         "@chris-zhu/eslint-config": "0.0.5",
         "@unocss/core": "0.30.6",
         "@unocss/preset-attributify": "0.30.6",

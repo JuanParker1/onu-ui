@@ -1,4 +1,4 @@
-import { withInstall } from '@c-ui/utils'
+import { withInstall } from '@pui/utils'
 import Avatar from './src/index.vue'
 
 export const CAvatar = withInstall(Avatar)

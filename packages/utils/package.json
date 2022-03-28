@@ -1,5 +1,5 @@
 {
-    "name": "@c-ui/utils",
+    "name": "@pui/utils",
     "version": "0.0.0",
     "description": "all utils are settled here",
     "main": "index.ts",

@@ -5,7 +5,7 @@ import type { Preset } from '@unocss/core'
 
 export function presetCui(): Preset {
   return {
-    name: 'c-ui',
+    name: 'pui',
     theme: mergeDeep(unoTheme, {
       colors: {
         context: 'rgba(var(--cui-c-context),%alpha)'

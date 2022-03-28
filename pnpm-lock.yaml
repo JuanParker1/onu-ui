@@ -4,9 +4,9 @@ importers:
 
   .:
     specifiers:
-      '@c-ui/components': workspace:*
-      '@c-ui/unocss': workspace:*
-      '@c-ui/utils': workspace:*
+      '@pui/components': workspace:*
+      '@pui/unocss': workspace:*
+      '@pui/utils': workspace:*
       '@chris-zhu/eslint-config': 0.0.5
       '@unocss/core': 0.30.6
       '@unocss/preset-attributify': 0.30.6
@@ -24,9 +24,9 @@ importers:
       vite: 2.8.6
       vue: 3.2.31
     devDependencies:
-      '@c-ui/components': link:packages/components
-      '@c-ui/unocss': link:packages/unocss
-      '@c-ui/utils': link:packages/utils
+      '@pui/components': link:packages/components
+      '@pui/unocss': link:packages/unocss
+      '@pui/utils': link:packages/utils
       '@chris-zhu/eslint-config': 0.0.5_eslint@8.12.0+typescript@4.6.3
       '@unocss/core': 0.30.6
       '@unocss/preset-attributify': 0.30.6
@@ -44,23 +44,23 @@ importers:
       vite: 2.8.6
       vue: 3.2.31
 
-  packages/c-ui:
+  packages/pui:
     specifiers:
-      '@c-ui/components': workspace:*
-      '@c-ui/unocss': workspace:*
-      '@c-ui/utils': workspace:*
+      '@pui/components': workspace:*
+      '@pui/unocss': workspace:*
+      '@pui/utils': workspace:*
     dependencies:
-      '@c-ui/components': link:../components
-      '@c-ui/unocss': link:../unocss
-      '@c-ui/utils': link:../utils
+      '@pui/components': link:../components
+      '@pui/unocss': link:../unocss
+      '@pui/utils': link:../utils
 
   packages/components:
     specifiers:
-      '@c-ui/unocss': workspace:*
-      '@c-ui/utils': workspace:*
+      '@pui/unocss': workspace:*
+      '@pui/utils': workspace:*
     devDependencies:
-      '@c-ui/unocss': link:../unocss
-      '@c-ui/utils': link:../utils
+      '@pui/unocss': link:../unocss
+      '@pui/utils': link:../utils
 
   packages/unocss:
     specifiers: {}
@@ -70,13 +70,13 @@ importers:
 
   playground:
     specifiers:
-      '@c-ui/unocss': workspace:*
+      '@pui/unocss': workspace:*
       unplugin-vue-components: 0.18.5
       vue: 3.2.31
     dependencies:
       vue: 3.2.31
     devDependencies:
-      '@c-ui/unocss': link:../packages/unocss
+      '@pui/unocss': link:../packages/unocss
       unplugin-vue-components: 0.18.5_vite@2.8.6+vue@3.2.31
 
 packages:

@@ -1,5 +1,5 @@
 import { defineConfig, presetAttributify, presetIcons, presetTypography, presetUno, transformerDirectives, transformerVariantGroup } from 'unocss'
-import { presetCui } from '@c-ui/unocss'
+import { presetCui } from '@pui/unocss'
 
 export default defineConfig({
   presets: [

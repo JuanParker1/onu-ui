@@ -16,10 +16,10 @@
         "outDir": "dist",
         "types": [],
         "paths": {
-            "c-ui": [ "./packages/c-ui/src/index.ts" ],
-            "@c-ui/components": [ "./packages/components/index.ts" ],
-            "@c-ui/utils": [ "./packages/utils/index.ts" ],
-            "@c-ui/unocss": [ "./packages/unocss/index.ts" ],
+            "pui": [ "./packages/pui/src/index.ts" ],
+            "@pui/components": [ "./packages/components/index.ts" ],
+            "@pui/utils": [ "./packages/utils/index.ts" ],
+            "@pui/unocss": [ "./packages/unocss/index.ts" ],
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "name": "@c-ui/components",
+    "name": "@pui/components",
     "version": "0.0.0",
     "description": "all components are settled here",
     "main": "index.ts",
@@ -8,8 +8,8 @@
         "vue": "^3.2.0"
     },
     "devDependencies": {
-      "@c-ui/unocss": "workspace:*",
-      "@c-ui/utils": "workspace:*"
+      "@pui/unocss": "workspace:*",
+      "@pui/utils": "workspace:*"
     },
     "types": "index.d.ts"
 }

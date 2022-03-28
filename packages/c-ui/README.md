@@ -1,3 +1,3 @@
-# C-UI
+# pui
 
 unocss & vueuse components
