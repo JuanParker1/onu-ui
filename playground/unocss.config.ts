@@ -1,4 +1,4 @@
-import { defineConfig, presetAttributify, presetIcons, presetUno, transformerDirectives, transformerVariantGroup } from 'unocss'
+import { defineConfig, presetAttributify, presetIcons, presetTypography, presetUno, transformerDirectives, transformerVariantGroup } from 'unocss'
 import { presetCui } from '@c-ui/unocss'
 
 export default defineConfig({
@@ -13,6 +13,7 @@ export default defineConfig({
         'vertical-align': 'middle'
       }
     }),
+    presetTypography(),
     presetCui()
   ],
   transformers: [transformerVariantGroup(), transformerDirectives()]

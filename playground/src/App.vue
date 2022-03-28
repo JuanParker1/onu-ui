@@ -1,18 +1,25 @@
 <template>
-  <p>playground</p>
-  <CButton>asd</CButton>
-  <c-button>button1</c-button>
-  <CAvatar />
-  <c-avatar />
+  <div prose ma>
+    <h1>Playground</h1>
+    <P b="~ rounded" p="x-4 b-4">
+      <h4>Avatar</h4>
+      <div flex="~ text-0">
+        <CAvatar mr-4 />
+        <c-avatar />
+      </div>
+    </P>
+    <P b="~ rounded" p="x-4 b-4">
+      <h4>Button</h4>
+      <CButton mr-4>
+        asd
+      </CButton>
+      <c-button>button1</c-button>
+    </P>
+  </div>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+html, body {
+  @apply m0 p0;
 }
 </style>

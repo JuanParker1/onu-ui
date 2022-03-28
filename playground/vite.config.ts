@@ -14,7 +14,7 @@ export default defineConfig({
         (name) => {
           const match = name.match(/^[cC]-?(.+)$/)
           if (match)
-            return path.resolve('../packages/components/', match[1].toLowerCase(), './src/index.vue')
+            return path.resolve('../packages/components', `./${match[1].toLowerCase()}`, './src/index.vue')
         }
       ]
     })
