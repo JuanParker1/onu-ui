@@ -9,7 +9,7 @@ export default defineConfig({
     Vue(),
     Unocss(),
     Components({
-      dts: true,
+      dts: './src/components.d.ts',
       resolvers: [
         (name) => {
           const match = name.match(/^[cC]-?(.+)$/)

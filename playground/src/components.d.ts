@@ -4,8 +4,8 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    CAvatar: typeof import('./../packages/components/avatar/src/index.vue')['default']
-    CButton: typeof import('./../packages/components/button/src/index.vue')['default']
+    CAvatar: typeof import('./../../packages/components/avatar/src/index.vue')['default']
+    CButton: typeof import('./../../packages/components/button/src/index.vue')['default']
   }
 }
 

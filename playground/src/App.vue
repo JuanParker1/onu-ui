@@ -3,6 +3,7 @@
   <CButton>asd</CButton>
   <c-button>button1</c-button>
   <CAvatar />
+  <c-avatar />
 </template>
 
 <style>
