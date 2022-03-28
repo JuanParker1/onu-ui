@@ -5,6 +5,6 @@
         "lib": ["esnext"],
         "types": ["node"]
     },
-    "include": [ "*/vite.config.ts", "packages/cli/**/*" ],
+    "include": [ "*/vite.config.ts" ],
     "exclude": [ "packages/**/__test__", "packages/**/test" ]
 }
