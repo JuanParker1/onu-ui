@@ -1,9 +1,9 @@
 import { theme as unoTheme } from '@unocss/preset-mini'
 import { mergeDeep } from 'unocss'
 import type { Preset } from '@unocss/core'
-import type { Theme } from '@unocss/preset-uno'
+// import type { Theme } from '@unocss/preset-uno'
 
-export function presetCui() {
+export function presetCui(): Preset {
   return {
     name: 'c-ui',
     theme: mergeDeep(unoTheme, {
@@ -52,5 +52,5 @@ export function presetCui() {
       'c-button-active': 'c-active-base bg-context/5',
       'c-button-icon': '-ml-0.2em mr-0.2em text-1.1em'
     }
-  } as Preset<Theme>
+  }
 }
