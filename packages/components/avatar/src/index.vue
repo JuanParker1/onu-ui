@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div>Avatar</div>
+  <div><img src="../../../../public/logo.png" alt=""></div>
 </template>
 
 <style lang='scss' scoped>

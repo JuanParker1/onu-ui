@@ -1,3 +1,4 @@
+import path from 'path'
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 import Components from 'unplugin-vue-components/vite'
@@ -8,14 +9,14 @@ export default defineConfig({
     Vue(),
     Unocss(),
     Components({
-      dirs: ['../packages/components'],
+      dts: true,
       resolvers: [
-        // (name) => {
-        //   return { importName: `C${name}`, path: 'c-ui' }
-        // }
-      ],
-      directoryAsNamespace: true
-      // globalNamespaces: ['src']
+        (name) => {
+          const match = name.match(/^[cC]-?(.+)$/)
+          if (match)
+            return path.resolve('../packages/components/', match[1].toLowerCase(), './src/index.vue')
+        }
+      ]
     })
   ]
 })
