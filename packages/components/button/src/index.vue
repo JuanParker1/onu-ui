@@ -2,7 +2,7 @@
   <Component
     :is="to ? 'a' : 'button'"
     :href="to"
-    class="c-button c-transition c-button-base hover:c-button-hover active:c-button-active focus-visible:n-focus-base c-disabled:c-disabled"
+    class="o-button o-transition o-button-base hover:o-button-hover active:o-button-active focus-visible:o-focus-base o-disabled:o-disabled"
   >
     <slot name="icon">
       <!-- <NIcon v-if="icon" :icon="icon" class="c-buttoc-icon" /> -->
@@ -11,7 +11,7 @@
   </Component>
 </template>
 
-<script setup lang="ts" name="C-Button">
+<script setup lang="ts" name="O-Button">
 defineProps<{
   to?: string
   icon?: string

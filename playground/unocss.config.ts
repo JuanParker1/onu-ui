@@ -1,5 +1,5 @@
 import { defineConfig, presetAttributify, presetIcons, presetTypography, presetUno, transformerDirectives, transformerVariantGroup } from 'unocss'
-import { presetCui } from '@onu-ui/unocss'
+import { presetOnu } from '@onu-ui/unocss'
 
 export default defineConfig({
   presets: [
@@ -14,7 +14,7 @@ export default defineConfig({
       }
     }),
     presetTypography(),
-    presetCui()
+    presetOnu()
   ],
   transformers: [transformerVariantGroup(), transformerDirectives()]
 })
