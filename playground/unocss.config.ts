@@ -10,11 +10,11 @@ export default defineConfig({
       scale: 1.2,
       extraProperties: {
         'display': 'inline-block',
-        'vertical-align': 'middle'
-      }
+        'vertical-align': 'middle',
+      },
     }),
     presetTypography(),
-    presetOnu()
+    presetOnu(),
   ],
-  transformers: [transformerVariantGroup(), transformerDirectives()]
+  transformers: [transformerVariantGroup(), transformerDirectives()],
 })

@@ -8,11 +8,11 @@ export function presetOnu(): Preset {
     name: 'onu-ui',
     theme: mergeDeep(unoTheme, {
       colors: {
-        context: 'rgba(var(--onu-c-context),%alpha)'
+        context: 'rgba(var(--onu-c-context),%alpha)',
       },
       fontFamily: {
-        sans: 'Avenir, Helvetica, Arial, sans-serif'
-      }
+        sans: 'Avenir, Helvetica, Arial, sans-serif',
+      },
     }),
     rules: [],
     variants: [
@@ -21,7 +21,7 @@ export function presetOnu(): Preset {
         if (input.startsWith(prefix)) {
           return {
             matcher: input.slice(prefix.length),
-            selector: input => `[disabled] ${input}, ${input}[disabled]`
+            selector: input => `[disabled] ${input}, ${input}[disabled]`,
           }
         }
       },
@@ -30,10 +30,10 @@ export function presetOnu(): Preset {
         if (input.startsWith(prefix)) {
           return {
             matcher: input.slice(prefix.length),
-            selector: input => `[checked] ${input}, ${input}[checked]`
+            selector: input => `[checked] ${input}, ${input}[checked]`,
           }
         }
-      }
+      },
     ],
     shortcuts: {
       // general
@@ -50,7 +50,7 @@ export function presetOnu(): Preset {
       'o-button-base': 'border o-border-base rounded shadow-sm px-1em py-0.25em inline-flex items-center gap-1 op80 !outline-none',
       'o-button-hover': 'op100 !border-context text-context',
       'o-button-active': 'o-active-base bg-context/5',
-      'o-button-icon': '-ml-0.2em mr-0.2em text-1.1em'
-    }
+      'o-button-icon': '-ml-0.2em mr-0.2em text-1.1em',
+    },
   }
 }
