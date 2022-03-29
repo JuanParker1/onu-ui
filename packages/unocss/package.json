@@ -1,5 +1,5 @@
 {
-    "name": "@pui/unocss",
+    "name": "@onu-ui/unocss",
     "version": "0.0.0",
     "description": "unocss preset are settled here",
     "main": "./src/index.ts",

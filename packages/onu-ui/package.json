@@ -1,16 +1,16 @@
 {
   "name": "onu-ui",
   "version": "1.0.0",
-  "description": "pui for web components",
+  "description": "onu-ui for web components",
   "keywords": [
-    "pui",
+    "onu-ui",
     "unocss",
     "vueuse"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pui/pui.git"
+    "url": "git+https://github.com/onu-ui/onu-ui.git"
   },
   "author": "chris-zhu <https://github.com/chris-zhu>",
   "type": "module",
@@ -21,12 +21,12 @@
     "build": "unbuild"
   },
   "bugs": {
-    "url": "https://github.com/pui/pui/issues"
+    "url": "https://github.com/onu-ui/onu-ui/issues"
   },
-  "homepage": "https://github.com/pui/pui#readme",
+  "homepage": "https://github.com/onu-ui/onu-ui#readme",
   "dependencies": {
-    "@pui/components": "workspace:*",
-    "@pui/unocss": "workspace:*",
-    "@pui/utils": "workspace:*"
+    "@onu-ui/components": "workspace:*",
+    "@onu-ui/unocss": "workspace:*",
+    "@onu-ui/utils": "workspace:*"
   }
 }

@@ -12,7 +12,7 @@ export default defineConfig({
       dts: './src/components.d.ts',
       resolvers: [
         (name) => {
-          const match = name.match(/^[cC]-?(.+)$/)
+          const match = name.match(/^[oO]-?(.+)$/)
           if (match)
             return path.resolve('../packages/components', `./${match[1].toLowerCase()}`, './src/index.vue')
         }

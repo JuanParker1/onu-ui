@@ -1,5 +1,5 @@
 {
-    "name": "@pui/monorepo",
+    "name": "@onu-ui/monorepo",
     "private": true,
     "version": "1.0.0",
     "license": "MIT",
@@ -10,9 +10,9 @@
     },
     "devDependencies": {
         "@chris-zhu/eslint-config": "0.0.5",
-        "@pui/components": "workspace:*",
-        "@pui/unocss": "workspace:*",
-        "@pui/utils": "workspace:*",
+        "@onu-ui/components": "workspace:*",
+        "@onu-ui/unocss": "workspace:*",
+        "@onu-ui/utils": "workspace:*",
         "@unocss/core": "0.30.6",
         "@unocss/preset-attributify": "0.30.6",
         "@unocss/preset-icons": "0.30.6",

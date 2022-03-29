@@ -1,7 +1,7 @@
-import { withInstall } from '@pui/utils'
+import { withInstall } from '@onu-ui/utils'
 import Button from './index.vue'
 
-export const CButton = withInstall(Button)
-export default CButton
+export const OButton = withInstall(Button)
+export default OButton
 
 export * from './src'

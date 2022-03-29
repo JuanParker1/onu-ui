@@ -5,9 +5,9 @@ importers:
   .:
     specifiers:
       '@chris-zhu/eslint-config': 0.0.5
-      '@pui/components': workspace:*
-      '@pui/unocss': workspace:*
-      '@pui/utils': workspace:*
+      '@onu-ui/components': workspace:*
+      '@onu-ui/unocss': workspace:*
+      '@onu-ui/utils': workspace:*
       '@unocss/core': 0.30.6
       '@unocss/preset-attributify': 0.30.6
       '@unocss/preset-icons': 0.30.6
@@ -25,9 +25,9 @@ importers:
       vue: 3.2.31
     devDependencies:
       '@chris-zhu/eslint-config': 0.0.5_eslint@8.12.0+typescript@4.6.3
-      '@pui/components': link:packages/components
-      '@pui/unocss': link:packages/unocss
-      '@pui/utils': link:packages/utils
+      '@onu-ui/components': link:packages/components
+      '@onu-ui/unocss': link:packages/unocss
+      '@onu-ui/utils': link:packages/utils
       '@unocss/core': 0.30.6
       '@unocss/preset-attributify': 0.30.6
       '@unocss/preset-icons': 0.30.6
@@ -44,23 +44,23 @@ importers:
       vite: 2.8.6
       vue: 3.2.31
 
-  packages/c-ui:
-    specifiers:
-      '@pui/components': workspace:*
-      '@pui/unocss': workspace:*
-      '@pui/utils': workspace:*
-    dependencies:
-      '@pui/components': link:../components
-      '@pui/unocss': link:../unocss
-      '@pui/utils': link:../utils
-
   packages/components:
     specifiers:
-      '@pui/unocss': workspace:*
-      '@pui/utils': workspace:*
+      '@onu-ui/unocss': workspace:*
+      '@onu-ui/utils': workspace:*
     devDependencies:
-      '@pui/unocss': link:../unocss
-      '@pui/utils': link:../utils
+      '@onu-ui/unocss': link:../unocss
+      '@onu-ui/utils': link:../utils
+
+  packages/onu-ui:
+    specifiers:
+      '@onu-ui/components': workspace:*
+      '@onu-ui/unocss': workspace:*
+      '@onu-ui/utils': workspace:*
+    dependencies:
+      '@onu-ui/components': link:../components
+      '@onu-ui/unocss': link:../unocss
+      '@onu-ui/utils': link:../utils
 
   packages/unocss:
     specifiers: {}
@@ -70,13 +70,13 @@ importers:
 
   playground:
     specifiers:
-      '@pui/unocss': workspace:*
+      '@onu-ui/unocss': workspace:*
       unplugin-vue-components: 0.18.5
       vue: 3.2.31
     dependencies:
       vue: 3.2.31
     devDependencies:
-      '@pui/unocss': link:../packages/unocss
+      '@onu-ui/unocss': link:../packages/unocss
       unplugin-vue-components: 0.18.5_vite@2.8.6+vue@3.2.31
 
 packages:
