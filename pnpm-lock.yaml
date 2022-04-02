@@ -11,7 +11,7 @@ importers:
       '@unocss/core': 0.30.10
       '@unocss/preset-attributify': 0.30.10
       '@unocss/preset-icons': 0.30.10
-      '@unocss/preset-mini': 0.30.8
+      '@unocss/preset-mini': 0.30.10
       '@unocss/preset-uno': 0.30.8
       '@unocss/reset': 0.30.8
       '@vitejs/plugin-vue': 2.3.1
@@ -31,7 +31,7 @@ importers:
       '@unocss/core': 0.30.10
       '@unocss/preset-attributify': 0.30.10
       '@unocss/preset-icons': 0.30.10
-      '@unocss/preset-mini': 0.30.8
+      '@unocss/preset-mini': 0.30.10
       '@unocss/preset-uno': 0.30.8
       '@unocss/reset': 0.30.8
       '@vitejs/plugin-vue': 2.3.1_vite@2.9.1+vue@3.2.31
@@ -573,6 +573,12 @@ packages:
       '@unocss/core': 0.30.8
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@unocss/preset-mini/0.30.10:
+    resolution: {integrity: sha512-orvmX3IHp1OT/GZEkSL5ll+8Jz/br1g6ay43Dl14ABplxu3d9IgJUX5+C4AUMja63D+5g5Efh7V806ZG++sX7A==}
+    dependencies:
+      '@unocss/core': 0.30.10
     dev: true
 
   /@unocss/preset-mini/0.30.8:
