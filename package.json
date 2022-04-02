@@ -15,7 +15,7 @@
         "@onu-ui/utils": "workspace:*",
         "@unocss/core": "0.30.11",
         "@unocss/preset-attributify": "0.30.11",
-        "@unocss/preset-icons": "0.30.10",
+        "@unocss/preset-icons": "0.30.11",
         "@unocss/preset-mini": "0.30.10",
         "@unocss/preset-uno": "0.30.10",
         "@unocss/reset": "0.30.10",
