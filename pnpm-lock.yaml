@@ -9,7 +9,7 @@ importers:
       '@onu-ui/unocss': workspace:*
       '@onu-ui/utils': workspace:*
       '@unocss/core': 0.30.11
-      '@unocss/preset-attributify': 0.30.10
+      '@unocss/preset-attributify': 0.30.11
       '@unocss/preset-icons': 0.30.10
       '@unocss/preset-mini': 0.30.10
       '@unocss/preset-uno': 0.30.10
@@ -29,7 +29,7 @@ importers:
       '@onu-ui/unocss': link:packages/unocss
       '@onu-ui/utils': link:packages/utils
       '@unocss/core': 0.30.11
-      '@unocss/preset-attributify': 0.30.10
+      '@unocss/preset-attributify': 0.30.11
       '@unocss/preset-icons': 0.30.10
       '@unocss/preset-mini': 0.30.10
       '@unocss/preset-uno': 0.30.10
@@ -549,6 +549,12 @@ packages:
     resolution: {integrity: sha512-ArHJYRWqtcJcvFRdPPJBMVJ9tik2U9Gy6sg2ZAkBl16iyoEr+8hYL0LjjuTDoBHKpekMsnlYSTlhQj+MZ3MC5g==}
     dependencies:
       '@unocss/core': 0.30.10
+    dev: true
+
+  /@unocss/preset-attributify/0.30.11:
+    resolution: {integrity: sha512-Ieb4tufA4xcs0suJfxaR75ipUQbTuHBvu5VOQT9ymKoyV8tcNStuMxK26A5D8vpjtoC4fMa5SWRWUKAbd8O0Sg==}
+    dependencies:
+      '@unocss/core': 0.30.11
     dev: true
 
   /@unocss/preset-icons/0.30.10:
