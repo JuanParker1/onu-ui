@@ -20,7 +20,7 @@ importers:
       typescript: 4.6.3
       unbuild: 0.7.2
       unocss: 0.30.12
-      unplugin-vue-components: 0.18.5
+      unplugin-vue-components: 0.19.0
       vite: 2.9.1
       vue: 3.2.31
     devDependencies:
@@ -40,7 +40,7 @@ importers:
       typescript: 4.6.3
       unbuild: 0.7.2
       unocss: 0.30.12
-      unplugin-vue-components: 0.18.5_vite@2.9.1+vue@3.2.31
+      unplugin-vue-components: 0.19.0_vite@2.9.1+vue@3.2.31
       vite: 2.9.1
       vue: 3.2.31
 
@@ -71,13 +71,13 @@ importers:
   playground:
     specifiers:
       '@onu-ui/unocss': workspace:*
-      unplugin-vue-components: 0.18.5
+      unplugin-vue-components: 0.19.0
       vue: 3.2.31
     dependencies:
       vue: 3.2.31
     devDependencies:
       '@onu-ui/unocss': link:../packages/unocss
-      unplugin-vue-components: 0.18.5_vite@2.9.1+vue@3.2.31
+      unplugin-vue-components: 0.19.0_vite@2.9.1+vue@3.2.31
 
 packages:
 
@@ -3697,8 +3697,8 @@ packages:
       - supports-color
     dev: true
 
-  /unplugin-vue-components/0.18.5_vite@2.9.1+vue@3.2.31:
-    resolution: {integrity: sha512-VPA6z/4pcKRDYtWu1H+FIpV0MADlFKG3q7YMVFzNFC3EhMVZ4WuBJ76490oKyauguNw1T1obLCuxNU9JzJ0oAQ==}
+  /unplugin-vue-components/0.19.0_vite@2.9.1+vue@3.2.31:
+    resolution: {integrity: sha512-x9fclW9WPifXli4+bIJxIywQPssnQxbr7cFr1yEC7NuRvGhFDIDQZ8NqxE53/ZDLVJvDm0PnOSvuzLgQMeOd2g==}
     engines: {node: '>=14'}
     peerDependencies:
       '@babel/parser': ^7.15.8
@@ -3719,7 +3719,7 @@ packages:
       magic-string: 0.26.1
       minimatch: 5.0.1
       resolve: 1.22.0
-      unplugin: 0.4.0_vite@2.9.1
+      unplugin: 0.6.1_vite@2.9.1
       vue: 3.2.31
     transitivePeerDependencies:
       - esbuild
@@ -3729,8 +3729,8 @@ packages:
       - webpack
     dev: true
 
-  /unplugin/0.4.0_vite@2.9.1:
-    resolution: {integrity: sha512-4ScITEmzlz1iZW3tkz+3L1V5k/xMQ6kjgm4lEXKxH0ozd8/OUWfiSA7RMRyrawsvq/t50JIzPpp1UyuSL/AXkA==}
+  /unplugin/0.6.1_vite@2.9.1:
+    resolution: {integrity: sha512-cQqRCgQ2v/Q4fPIWNVZ6sNIDdl5v8JXOnlsUOsGzT4fblTONoPWaytiYSpu5qJ9lvSDZYAQN6BRVo3XQoZMfUQ==}
     peerDependencies:
       esbuild: '>=0.13'
       rollup: ^2.50.0
@@ -3748,6 +3748,7 @@ packages:
     dependencies:
       chokidar: 3.5.3
       vite: 2.9.1
+      webpack-sources: 3.2.3
       webpack-virtual-modules: 0.4.3
     dev: true
 
@@ -3837,6 +3838,11 @@ packages:
       '@vue/runtime-dom': 3.2.31
       '@vue/server-renderer': 3.2.31_vue@3.2.31
       '@vue/shared': 3.2.31
+
+  /webpack-sources/3.2.3:
+    resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
+    engines: {node: '>=10.13.0'}
+    dev: true
 
   /webpack-virtual-modules/0.4.3:
     resolution: {integrity: sha512-5NUqC2JquIL2pBAAo/VfBP6KuGkHIZQXW/lNKupLPfhViwh8wNsu0BObtl09yuKZszeEUfbXz8xhrHvSG16Nqw==}
