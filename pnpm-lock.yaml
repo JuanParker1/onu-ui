@@ -11,7 +11,7 @@ importers:
       '@unocss/core': 0.31.0
       '@unocss/preset-attributify': 0.31.0
       '@unocss/preset-icons': 0.31.0
-      '@unocss/preset-mini': 0.30.12
+      '@unocss/preset-mini': 0.31.0
       '@unocss/preset-uno': 0.30.12
       '@unocss/reset': 0.30.12
       '@vitejs/plugin-vue': 2.3.1
@@ -31,7 +31,7 @@ importers:
       '@unocss/core': 0.31.0
       '@unocss/preset-attributify': 0.31.0
       '@unocss/preset-icons': 0.31.0
-      '@unocss/preset-mini': 0.30.12
+      '@unocss/preset-mini': 0.31.0
       '@unocss/preset-uno': 0.30.12
       '@unocss/reset': 0.30.12
       '@vitejs/plugin-vue': 2.3.1_vite@2.9.1+vue@3.2.31
@@ -579,6 +579,12 @@ packages:
     resolution: {integrity: sha512-4R9Pd0ZInq5HbW1a/H74AVoiCiTiaff79zuCUz8T/R/yOeoSfZuDjUgPFJrlRUyWLTIKxwi2DxGEfkN3AfQIGg==}
     dependencies:
       '@unocss/core': 0.30.12
+    dev: true
+
+  /@unocss/preset-mini/0.31.0:
+    resolution: {integrity: sha512-h6diYHmyQufZ02vfYcOrbu2uUGYZgFSqnu+sxRJGm0pJr9KAi/wVb9zke8ne6i48a9dZqLUiyabFbYOzP/5F4w==}
+    dependencies:
+      '@unocss/core': 0.31.0
     dev: true
 
   /@unocss/preset-typography/0.30.12:
