@@ -20,7 +20,7 @@ importers:
       typescript: 4.6.3
       unbuild: 0.7.2
       unocss: 0.30.12
-      unplugin-vue-components: 0.19.0
+      unplugin-vue-components: 0.19.1
       vite: 2.9.1
       vue: 3.2.31
     devDependencies:
@@ -40,7 +40,7 @@ importers:
       typescript: 4.6.3
       unbuild: 0.7.2
       unocss: 0.30.12
-      unplugin-vue-components: 0.19.0_vite@2.9.1+vue@3.2.31
+      unplugin-vue-components: 0.19.1_vite@2.9.1+vue@3.2.31
       vite: 2.9.1
       vue: 3.2.31
 
@@ -71,13 +71,13 @@ importers:
   playground:
     specifiers:
       '@onu-ui/unocss': workspace:*
-      unplugin-vue-components: 0.19.0
+      unplugin-vue-components: 0.19.1
       vue: 3.2.31
     dependencies:
       vue: 3.2.31
     devDependencies:
       '@onu-ui/unocss': link:../packages/unocss
-      unplugin-vue-components: 0.19.0_vite@2.9.1+vue@3.2.31
+      unplugin-vue-components: 0.19.1_vite@2.9.1+vue@3.2.31
 
 packages:
 
@@ -3697,8 +3697,8 @@ packages:
       - supports-color
     dev: true
 
-  /unplugin-vue-components/0.19.0_vite@2.9.1+vue@3.2.31:
-    resolution: {integrity: sha512-x9fclW9WPifXli4+bIJxIywQPssnQxbr7cFr1yEC7NuRvGhFDIDQZ8NqxE53/ZDLVJvDm0PnOSvuzLgQMeOd2g==}
+  /unplugin-vue-components/0.19.1_vite@2.9.1+vue@3.2.31:
+    resolution: {integrity: sha512-i1mkqCf4acwkulew0+1YFEwRB4mfE9pTkiAZdm37gXxNc4U04TVGnVoEfFyavulG8kEkCRs1RChqGvV2Pta/Tg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@babel/parser': ^7.15.8
