@@ -12,6 +12,6 @@
   },
   "devDependencies": {
     "@onu-ui/unocss": "workspace:*",
-    "unplugin-vue-components": "0.19.1"
+    "unplugin-vue-components": "0.19.2"
   }
 }
