@@ -8,7 +8,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "3.2.31"
+    "vue": "3.2.32"
   },
   "devDependencies": {
     "@onu-ui/unocss": "workspace:*",
