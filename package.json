@@ -26,7 +26,7 @@
         "unbuild": "0.7.4",
         "unocss": "0.31.2",
         "unplugin-vue-components": "0.19.2",
-        "vite": "2.9.1",
+        "vite": "2.9.4",
         "vue": "3.2.32"
     }
 }
