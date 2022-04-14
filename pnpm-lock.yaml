@@ -20,7 +20,7 @@ importers:
       typescript: 4.6.3
       unbuild: 0.7.4
       unocss: 0.31.3
-      unplugin-vue-components: 0.19.2
+      unplugin-vue-components: 0.19.3
       vite: 2.9.4
       vue: 3.2.32
     devDependencies:
@@ -40,7 +40,7 @@ importers:
       typescript: 4.6.3
       unbuild: 0.7.4
       unocss: 0.31.3_vite@2.9.4
-      unplugin-vue-components: 0.19.2_vite@2.9.4+vue@3.2.32
+      unplugin-vue-components: 0.19.3_vite@2.9.4+vue@3.2.32
       vite: 2.9.4
       vue: 3.2.32
 
@@ -71,13 +71,13 @@ importers:
   playground:
     specifiers:
       '@onu-ui/unocss': workspace:*
-      unplugin-vue-components: 0.19.2
+      unplugin-vue-components: 0.19.3
       vue: 3.2.32
     dependencies:
       vue: 3.2.32
     devDependencies:
       '@onu-ui/unocss': link:../packages/unocss
-      unplugin-vue-components: 0.19.2_vite@2.9.4+vue@3.2.32
+      unplugin-vue-components: 0.19.3_vite@2.9.4+vue@3.2.32
 
 packages:
 
@@ -93,10 +93,6 @@ packages:
     dependencies:
       execa: 5.1.1
       find-up: 5.0.0
-    dev: true
-
-  /@antfu/utils/0.5.0:
-    resolution: {integrity: sha512-MrAQ/MrPSxbh1bBrmwJjORfJymw4IqSHFBXqvxaga3ZdDM+/zokYF8DjyJpSjY2QmpmgQrajDUBJOWrYeARfzA==}
     dev: true
 
   /@antfu/utils/0.5.1:
@@ -3768,8 +3764,8 @@ packages:
       - vite
     dev: true
 
-  /unplugin-vue-components/0.19.2_vite@2.9.4+vue@3.2.32:
-    resolution: {integrity: sha512-7DhQfTyHLyVIWR6VBQONLU6dDBOXtEYvZQYUpN9C+t11WOb5baIFoxfzDxkeFHTHGMhznyEOw6afHyV9JKWnig==}
+  /unplugin-vue-components/0.19.3_vite@2.9.4+vue@3.2.32:
+    resolution: {integrity: sha512-z/kpYJnqrJuWglDNs7fy0YRHr41oLc07y2TkP3by6DqPb1GG9xGC9SFigeFwd4J7GVTqyFVsnjoeup7uK7I2dA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@babel/parser': ^7.15.8
@@ -3781,8 +3777,8 @@ packages:
       '@babel/traverse':
         optional: true
     dependencies:
-      '@antfu/utils': 0.5.0
-      '@rollup/pluginutils': 4.2.0
+      '@antfu/utils': 0.5.1
+      '@rollup/pluginutils': 4.2.1
       chokidar: 3.5.3
       debug: 4.3.4
       fast-glob: 3.2.11
