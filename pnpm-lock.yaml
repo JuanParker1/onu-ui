@@ -10,7 +10,7 @@ importers:
       '@onu-ui/utils': workspace:*
       '@unocss/core': 0.31.3
       '@unocss/preset-attributify': 0.31.3
-      '@unocss/preset-icons': 0.31.2
+      '@unocss/preset-icons': 0.31.3
       '@unocss/preset-mini': 0.31.2
       '@unocss/preset-uno': 0.31.2
       '@unocss/reset': 0.31.2
@@ -30,7 +30,7 @@ importers:
       '@onu-ui/utils': link:packages/utils
       '@unocss/core': 0.31.3
       '@unocss/preset-attributify': 0.31.3
-      '@unocss/preset-icons': 0.31.2
+      '@unocss/preset-icons': 0.31.3
       '@unocss/preset-mini': 0.31.2
       '@unocss/preset-uno': 0.31.2
       '@unocss/reset': 0.31.2
@@ -402,7 +402,7 @@ packages:
     resolution: {integrity: sha512-m+rnw7qKHq/XF7DAi4BcFoEAcXBfqqMgQJh8brGEHeqE/RUvgDMjmxsHgWnVpFsG+VmjGyAiI7nwXdliCwEU0Q==}
     dependencies:
       '@antfu/install-pkg': 0.1.0
-      '@antfu/utils': 0.5.0
+      '@antfu/utils': 0.5.1
       '@iconify/types': 1.1.0
       debug: 4.3.4
       kolorist: 1.5.1
@@ -760,6 +760,15 @@ packages:
     dependencies:
       '@iconify/utils': 1.0.32
       '@unocss/core': 0.31.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@unocss/preset-icons/0.31.3:
+    resolution: {integrity: sha512-AQYSw4644wsXZZlACzeJKZqOndv/MoQkuf+ijsslacqd0ThrLBLJhExzYxln10aS2eqA4JCIq8GUCEq/x8YYCw==}
+    dependencies:
+      '@iconify/utils': 1.0.32
+      '@unocss/core': 0.31.3
     transitivePeerDependencies:
       - supports-color
     dev: true
