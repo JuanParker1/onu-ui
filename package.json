@@ -27,6 +27,6 @@
         "unocss": "0.31.3",
         "unplugin-vue-components": "0.19.3",
         "vite": "2.9.5",
-        "vue": "3.2.32"
+        "vue": "3.2.33"
     }
 }
