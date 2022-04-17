@@ -12,7 +12,7 @@ importers:
       '@unocss/preset-attributify': 0.31.5
       '@unocss/preset-icons': 0.31.5
       '@unocss/preset-mini': 0.31.5
-      '@unocss/preset-uno': 0.31.3
+      '@unocss/preset-uno': 0.31.5
       '@unocss/reset': 0.31.3
       '@vitejs/plugin-vue': 2.3.1
       '@vueuse/core': 8.2.6
@@ -32,7 +32,7 @@ importers:
       '@unocss/preset-attributify': 0.31.5
       '@unocss/preset-icons': 0.31.5
       '@unocss/preset-mini': 0.31.5
-      '@unocss/preset-uno': 0.31.3
+      '@unocss/preset-uno': 0.31.5
       '@unocss/reset': 0.31.3
       '@vitejs/plugin-vue': 2.3.1_vite@2.9.5+vue@3.2.33
       '@vueuse/core': 8.2.6_vue@3.2.33
@@ -797,6 +797,14 @@ packages:
       '@unocss/preset-wind': 0.31.3
     dev: true
 
+  /@unocss/preset-uno/0.31.5:
+    resolution: {integrity: sha512-frlwJKkO0s/OFehSEuD5vAEEZhrlAuNznNC1o9NTMsw+pZMaiNwpRO92oVZgQ653jGUYh3wvYnB2iES+fr1XKw==}
+    dependencies:
+      '@unocss/core': 0.31.5
+      '@unocss/preset-mini': 0.31.5
+      '@unocss/preset-wind': 0.31.5
+    dev: true
+
   /@unocss/preset-web-fonts/0.31.3:
     resolution: {integrity: sha512-Oq8vGUBGriHJwYV7vSdGLVkfTfF5+v/PBUVvNVePSS+BBJrixgQmbf7k9V88TutgbJkOnJAiRqT4/g3SlJVK4w==}
     dependencies:
@@ -811,6 +819,13 @@ packages:
     dependencies:
       '@unocss/core': 0.31.3
       '@unocss/preset-mini': 0.31.3
+    dev: true
+
+  /@unocss/preset-wind/0.31.5:
+    resolution: {integrity: sha512-ZX8NNFeMy+y93n2BUjETvIfbuvezRnuJUPLEIlaWk+PaHEC2Y4kkZ7KK2XWdWDENp8oiS6qoX4pv/x4itng5zA==}
+    dependencies:
+      '@unocss/core': 0.31.5
+      '@unocss/preset-mini': 0.31.5
     dev: true
 
   /@unocss/reset/0.31.3:
