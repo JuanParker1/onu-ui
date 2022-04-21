@@ -13,7 +13,7 @@ importers:
       '@unocss/preset-icons': 0.31.12
       '@unocss/preset-mini': 0.31.12
       '@unocss/preset-uno': 0.31.12
-      '@unocss/reset': 0.31.6
+      '@unocss/reset': 0.31.12
       '@vitejs/plugin-vue': 2.3.1
       '@vueuse/core': 8.2.6
       eslint: 8.13.0
@@ -33,7 +33,7 @@ importers:
       '@unocss/preset-icons': 0.31.12
       '@unocss/preset-mini': 0.31.12
       '@unocss/preset-uno': 0.31.12
-      '@unocss/reset': 0.31.6
+      '@unocss/reset': 0.31.12
       '@vitejs/plugin-vue': 2.3.1_vite@2.9.5+vue@3.2.33
       '@vueuse/core': 8.2.6_vue@3.2.33
       eslint: 8.13.0
@@ -829,8 +829,8 @@ packages:
       '@unocss/preset-mini': 0.31.8
     dev: true
 
-  /@unocss/reset/0.31.6:
-    resolution: {integrity: sha512-QJO9OSeGymOBsRevmMeTr9+fjHzyuVG2Ipyt3/VCfpz/+3R7Q7/5dqY8Q6NGG4xYWoW1DWYcmxy4roM/ihf+aQ==}
+  /@unocss/reset/0.31.12:
+    resolution: {integrity: sha512-SXQUcMsC1q4uSoetmna8LRDycTwbVIJqjG3Yk78SvXYW8iywiHxUyIcUbmd1Eb9bVL4mZ2SpXF4tGrKE59OwrA==}
     dev: true
 
   /@unocss/reset/0.31.8:
