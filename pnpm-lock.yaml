@@ -12,7 +12,7 @@ importers:
       '@unocss/preset-attributify': 0.31.8
       '@unocss/preset-icons': 0.31.8
       '@unocss/preset-mini': 0.31.8
-      '@unocss/preset-uno': 0.31.6
+      '@unocss/preset-uno': 0.31.8
       '@unocss/reset': 0.31.6
       '@vitejs/plugin-vue': 2.3.1
       '@vueuse/core': 8.2.6
@@ -32,7 +32,7 @@ importers:
       '@unocss/preset-attributify': 0.31.8
       '@unocss/preset-icons': 0.31.8
       '@unocss/preset-mini': 0.31.8
-      '@unocss/preset-uno': 0.31.6
+      '@unocss/preset-uno': 0.31.8
       '@unocss/reset': 0.31.6
       '@vitejs/plugin-vue': 2.3.1_vite@2.9.5+vue@3.2.33
       '@vueuse/core': 8.2.6_vue@3.2.33
@@ -727,10 +727,6 @@ packages:
       unconfig: 0.3.3
     dev: true
 
-  /@unocss/core/0.31.6:
-    resolution: {integrity: sha512-u8V9qiOPw8KALsUwDAWOhIzAtQI40b9fno8EofIEYisDjH/6ty8qrpQ0B0YzrcybMa4fEt6xW/4b53HTB8t02w==}
-    dev: true
-
   /@unocss/core/0.31.8:
     resolution: {integrity: sha512-UkTEf1upTf3s5U1RwQfk183Ymw4pIuatUEJyPgojnc4FYcApGDXsS22QHmWjTVFPVA/cwM4fgsowcRrJM5IZOw==}
     dev: true
@@ -757,12 +753,6 @@ packages:
       - supports-color
     dev: true
 
-  /@unocss/preset-mini/0.31.6:
-    resolution: {integrity: sha512-BDjNZFaW4jhkV7hGRF4Vp39sG0cft+CqgIQeeDEUBMqs6Xkf5nl4TD3rY+pz0759Qn1fxE/KRUetlRuFbctCsg==}
-    dependencies:
-      '@unocss/core': 0.31.6
-    dev: true
-
   /@unocss/preset-mini/0.31.8:
     resolution: {integrity: sha512-gGP73WKfXJi7YZ1rILncfCug9CEx+0h8pDSGIJawyJp4/e02NQBbdlDI4nCLbb1jKO7s7ZRj/S9WvxUHUJ5yVQ==}
     dependencies:
@@ -773,14 +763,6 @@ packages:
     resolution: {integrity: sha512-6zSyrymQNZ1Lz9rC5lQRCU8VM5xDCAGz3ONRGTwzpQ/MTfa1kiIGzKP671tsKQywNOR2Bhagwhkc6p8RiLQAsQ==}
     dependencies:
       '@unocss/core': 0.31.8
-    dev: true
-
-  /@unocss/preset-uno/0.31.6:
-    resolution: {integrity: sha512-48SZ6BEz+V/+1+t6tUC6TFZIxokLGB3xyv7AP1DYgYeviqXQ/2Mjv90jshmc9js+ujnr62FoJlUMz1OQN/I2Ow==}
-    dependencies:
-      '@unocss/core': 0.31.6
-      '@unocss/preset-mini': 0.31.6
-      '@unocss/preset-wind': 0.31.6
     dev: true
 
   /@unocss/preset-uno/0.31.8:
@@ -798,13 +780,6 @@ packages:
       axios: 0.26.1
     transitivePeerDependencies:
       - debug
-    dev: true
-
-  /@unocss/preset-wind/0.31.6:
-    resolution: {integrity: sha512-rYccCYY0ZE6B7XfePCl0+kh85KrTZHzBq8BlPThvV7Al1bMrqJFsbVwQywX5D6OunXJUVI7ktpgbAVU6GQjpTA==}
-    dependencies:
-      '@unocss/core': 0.31.6
-      '@unocss/preset-mini': 0.31.6
     dev: true
 
   /@unocss/preset-wind/0.31.8:
