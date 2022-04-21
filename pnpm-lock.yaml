@@ -9,7 +9,7 @@ importers:
       '@onu-ui/unocss': workspace:*
       '@onu-ui/utils': workspace:*
       '@unocss/core': 0.31.8
-      '@unocss/preset-attributify': 0.31.8
+      '@unocss/preset-attributify': 0.31.12
       '@unocss/preset-icons': 0.31.8
       '@unocss/preset-mini': 0.31.8
       '@unocss/preset-uno': 0.31.8
@@ -29,7 +29,7 @@ importers:
       '@onu-ui/unocss': link:packages/unocss
       '@onu-ui/utils': link:packages/utils
       '@unocss/core': 0.31.8
-      '@unocss/preset-attributify': 0.31.8
+      '@unocss/preset-attributify': 0.31.12
       '@unocss/preset-icons': 0.31.8
       '@unocss/preset-mini': 0.31.8
       '@unocss/preset-uno': 0.31.8
@@ -727,6 +727,10 @@ packages:
       unconfig: 0.3.3
     dev: true
 
+  /@unocss/core/0.31.12:
+    resolution: {integrity: sha512-2dOf0yYXXWi+bhS0x+3DppQtImUREVu7CSFkrPULOioImWHryLfiORAdHpPd4MnUqBFLqtC68+7un00HPJVx3g==}
+    dev: true
+
   /@unocss/core/0.31.8:
     resolution: {integrity: sha512-UkTEf1upTf3s5U1RwQfk183Ymw4pIuatUEJyPgojnc4FYcApGDXsS22QHmWjTVFPVA/cwM4fgsowcRrJM5IZOw==}
     dev: true
@@ -736,6 +740,12 @@ packages:
     dependencies:
       gzip-size: 6.0.0
       sirv: 2.0.2
+    dev: true
+
+  /@unocss/preset-attributify/0.31.12:
+    resolution: {integrity: sha512-MWK05JMptI/SO2E+n2QUG0DbAe2aK+1XNmAnSahkxDoYrMGGeJxw+d+cVXPgt2Bh4L0VIHqcQQNqSkvw2Zimaw==}
+    dependencies:
+      '@unocss/core': 0.31.12
     dev: true
 
   /@unocss/preset-attributify/0.31.8:
