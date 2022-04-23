@@ -10,7 +10,7 @@ importers:
       '@onu-ui/utils': workspace:*
       '@unocss/core': 0.31.13
       '@unocss/preset-attributify': 0.31.13
-      '@unocss/preset-icons': 0.31.12
+      '@unocss/preset-icons': 0.31.13
       '@unocss/preset-mini': 0.31.12
       '@unocss/preset-uno': 0.31.12
       '@unocss/reset': 0.31.12
@@ -30,7 +30,7 @@ importers:
       '@onu-ui/utils': link:packages/utils
       '@unocss/core': 0.31.13
       '@unocss/preset-attributify': 0.31.13
-      '@unocss/preset-icons': 0.31.12
+      '@unocss/preset-icons': 0.31.13
       '@unocss/preset-mini': 0.31.12
       '@unocss/preset-uno': 0.31.12
       '@unocss/reset': 0.31.12
@@ -759,6 +759,15 @@ packages:
     dependencies:
       '@iconify/utils': 1.0.32
       '@unocss/core': 0.31.12
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@unocss/preset-icons/0.31.13:
+    resolution: {integrity: sha512-s9BPcUedfLGmZgFVxKFOu21bq4wDWkDIxMwIl7UFwUk+YefVbVK2ex5GkWHv+SW/OFmF6fzm4gCHINQJ8nIsXw==}
+    dependencies:
+      '@iconify/utils': 1.0.32
+      '@unocss/core': 0.31.13
     transitivePeerDependencies:
       - supports-color
     dev: true
