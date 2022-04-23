@@ -13,7 +13,7 @@
         "@onu-ui/components": "workspace:*",
         "@onu-ui/unocss": "workspace:*",
         "@onu-ui/utils": "workspace:*",
-        "@unocss/core": "0.31.12",
+        "@unocss/core": "0.31.13",
         "@unocss/preset-attributify": "0.31.12",
         "@unocss/preset-icons": "0.31.12",
         "@unocss/preset-mini": "0.31.12",
